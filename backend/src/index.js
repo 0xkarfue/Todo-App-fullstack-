@@ -13,7 +13,7 @@ connectDB().then(() => {
         console.log('server is running.......');
     })
 }
-).catch((error) => {
+).catch((error) => { 
 
     console.log(`ERROR !!! `, error)
 }
